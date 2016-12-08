@@ -7,7 +7,7 @@ module.exports = {
 
     while ( deck.length < numOfCards ) {
       var randomPlayer = players[ Math.floor( Math.random() * players.length ) ];
-      var playerName = Object.keys(randomPlayer)[0];
+      var playerName = randomPlayer.name;
 
       if ( seen.hasOwnProperty( playerName ) === false ) {
         deck.push(randomPlayer)

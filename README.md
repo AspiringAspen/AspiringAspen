@@ -1,6 +1,6 @@
-# Project Name
+# Deck Stomp
 
-> Pithy project description
+> Online card game for aynone who can use a computer
 
 ## Team
 
@@ -20,15 +20,17 @@
 
 ## Usage
 
-> Some usage instructions
+> Fire it up and play a round with a friend
 
 ## Requirements
 
-- Node 0.10.x
-- Redis 2.6.x
-- Postgresql 9.1.x
-- etc
-- etc
+- Node 3.10.x
+- Express 4.14.x
+- React 15.4.x
+- Webpack - 1.14.x
+- Socket I/O - 1.0.x
+- Babel
+- Mongo
 
 ## Development
 
@@ -40,11 +42,12 @@ From within the root directory:
 sudo npm install -g bower
 npm install
 bower install
+node server/server.js
 ```
 
 ### Roadmap
 
-View the project roadmap [here](LINK_TO_PROJECT_ISSUES)
+View the project roadmap [here](https://github.com/AspiringAspen/AspiringAspen/issues)
 
 
 ## Contributing
